@@ -5,7 +5,6 @@ elif n==0:
      print("Factorial of zero is 1")
 else:
     f=1
-    #def fact()
     for i in range(1,n+1) :
         f=f*i
     print("Factorial ",f)
