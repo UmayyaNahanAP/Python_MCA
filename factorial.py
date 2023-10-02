@@ -1,3 +1,4 @@
+#Factorial of a number 
 n=int(input("Enter the number :"))
 if n<0 :
     print("Enter a possitive number")
