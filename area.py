@@ -1,3 +1,4 @@
+#Calculate area of the circle,rectangle and triangle 
 print("Circle :")
 r=int(input("Enter the radius :"))
 circle=3.14*r*r
