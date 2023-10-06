@@ -1,3 +1,4 @@
+#Program to ckeck vowels in a string
 s=input("Enter the string : ")
 i=0
 l1=[]
