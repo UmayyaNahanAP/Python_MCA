@@ -1,11 +1,9 @@
-#Factorial of a number 
-n=int(input("Enter the number :"))
-if n<0 :
-    print("Enter a possitive number")
-elif n==0:
-     print("Factorial of zero is 1")
-else:
-    f=1
-    for i in range(1,n+1) :
-        f=f*i
-    print("Factorial ",f)
+n=int(input("Enter the number : "))
+def fact(n):
+    if n==1:
+        return 1
+    else:
+        f=n*fact(n-1)
+        return f
+f=fact(n)
+print(f"Factorial of {n} is : {f}")
